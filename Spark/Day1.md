@@ -14,3 +14,12 @@ Spark Architecture: (How spark is designed)
 4. API are nothing but methods available in a particular language interface for data engineerings/scientists to use it to interact with spark.
 5. Ultimately, whatever an engineer wants to do using the apis of spark on the data that they have, will be converted into RDDs.
 6. Simple words, spark code is the main brain to process data, which is written is Scala. However, for folks who are comfortable with other language and different use-cases such as structured  streaming, batch processing, ML model, etc, Can use APIs written in different languages to process Data in spark. Eg: The data transformation that we write on a regular basis, is the Spark SQL components and we use python interfaces and APIs.
+7. What are the libraries available on top of spark core?
+    1. Spark SQL
+    2. Structure streaming
+    3. MLLIB
+    5. Graphx
+8. Why spark?
+    1. Easy to use.
+    2. Unified platform (to work on various use-cases)
+    3. Abstract parallel processing from users.
